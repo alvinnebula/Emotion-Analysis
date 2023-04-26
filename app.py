@@ -116,13 +116,13 @@ def run():
     col2.image(header_image, caption = "", use_column_width = True)
     col2.write(' ')
     st.markdown("<h2 style='text-align: center; color: white;'>CS4260 - Final Project</h2>", unsafe_allow_html=True)
-    st.markdown("<h4 style='text-align: center; color: white;'>Authors: Jingyuan Wu, Yiwen Chen</h2>", unsafe_allow_html=True)
+
     st.write("Use the button below to upload an image of someone's face (preferably a headshot). Possible emotional states are: angry, happy, fearful, neutral, sad and surprised.")
     
-    with st.expander("Instructions"):
-        st.markdown("<h7 style='text-align: center; color: red;'>Note 1: Please, use your computer to upload an image. This is better than taking a selfie from your phone or using an image from your phone. This approach tend to yield better results. What you can do is take some pictures and transfer them to your computer so you can upload them to this website.</h7>", unsafe_allow_html=True)
-        st.markdown("<h7 style='text-align: center; color: red;'>Note 2: If you are using a phone to take a selfie to upload an image for analysis, you will have to set your phone horizontal (i.e. rotate your phone by 90 degrees to the left or 90 degrees to the right) while taking the picture for it to be properly processed for analysis</h7>", unsafe_allow_html=True)
-        st.markdown("<h7 style='text-align: center; color: red;'>Note 3: The model might be terrible at detecting the toddler/children's faces, so it will yield an error upon uploading their images.</h7>", unsafe_allow_html=True)
+    with st.expander("Authors: "):
+        st.markdown("<h5 style='text-align: center; color: white;'>Jingyuan Wu, wuj44</h7>", unsafe_allow_html=True)
+        st.markdown("<h5 style='text-align: center; color: white;'>Yiwen Chen, chey111</h7>", unsafe_allow_html=True)
+        
     image_upload = st.file_uploader("Upload an image", type = ["png","jpg","jpeg","jfif"])
     
     if image_upload is not None:
