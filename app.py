@@ -16,7 +16,7 @@ from mtcnn.mtcnn import MTCNN
 import base64
 
 
-model = load_learner("models/resnet-50.pkl")
+model = load_learner("resnet-50.pkl")
 face_classifier = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 eye_classifier = cv2.CascadeClassifier (cv2.data.haarcascades + 'haarcascade_eye_tree_eyeglasses.xml')
 mouth_classifier = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_smile.xml')
