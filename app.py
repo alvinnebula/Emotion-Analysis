@@ -113,14 +113,11 @@ def run():
     st.markdown("<h1 style='text-align: center; color: white;'>Emotion Detection</h1>", unsafe_allow_html=True)
     col1, col2, col3 = st.columns(3)
     col1.write(' ')
-    col2.image(header_image, caption = "Photo Credit: https://techcrunch.com/2015/04/12/how-pixar-solves-problems-from-the-inside-out/", use_column_width = True)
+    col2.image(header_image, caption = "", use_column_width = True)
     col2.write(' ')
-    st.markdown("<h2 style='text-align: center; color: white;'>Welcome to our emotion detection website</h2>", unsafe_allow_html=True)
-    initial_sentence = "People display emotions multiple times when going through different events in life. They display negative emotions whenever something upsets them (anger, sadness, fear). They can be very happy when an event goes in their favour (happiness). They can be quite shocked at seeing the unexpected (surprised). And finally, they can display a neutral outlook when everything seems calm (neutral)."
-    st.write(initial_sentence)
-    objective_sentence = "The goal of this website will be to denote how someone feels by leveraging the power of computer vision to recognize a face within an image and detect that face's emotional state."
-    st.write(objective_sentence)
-    st.write("Use the button below to upload an image of someone's face (preferably a headshot) so we can detect its emotion. Possible emotional states are: angry, happy, fearful, neutral, sad and surprised.")
+    st.markdown("<h2 style='text-align: center; color: white;'>CS4260 - Final Project</h2>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: center; color: white;'>Jingyuan Wu, Yiwen Chen</h2>", unsafe_allow_html=True)
+    st.write("Use the button below to upload an image of someone's face (preferably a headshot). Possible emotional states are: angry, happy, fearful, neutral, sad and surprised.")
     
     with st.expander("Open to see instructions on the best approach to load images for analysis"):
         st.markdown("<h7 style='text-align: center; color: red;'>Note 1: Please, use your computer to upload an image. This is better than taking a selfie from your phone or using an image from your phone. This approach tend to yield better results. What you can do is take some pictures and transfer them to your computer so you can upload them to this website.</h7>", unsafe_allow_html=True)
