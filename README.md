@@ -37,8 +37,8 @@ https://alvinnebula-emotion-detection-app-zss9m0.streamlit.app/
 
 
 # Resources 
-HuggingFace: [Website](https://huggingface.co/transformers/index.html), [Course/Training](https://huggingface.co/course/chapter1), [Inference using pipelines](https://huggingface.co/transformers/task_summary.html), [Fine tuning models](https://huggingface.co/transformers/training.html)
-fast.ai: [Course](https://course.fast.ai/), [Quick start](https://docs.fast.ai/quick_start.html)
+* HuggingFace: [Website](https://huggingface.co/transformers/index.html), [Course/Training](https://huggingface.co/course/chapter1), [Inference using pipelines](https://huggingface.co/transformers/task_summary.html), [Fine tuning models](https://huggingface.co/transformers/training.html)
+* fast.ai: [Course](https://course.fast.ai/), [Quick start](https://docs.fast.ai/quick_start.html)
 * h2o: [Resources, documentation, and API links](https://docs.h2o.ai/#h2o)
 
 
